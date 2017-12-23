@@ -4,6 +4,7 @@ import logging
 
 
 LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.DEBUG)
 
 
 def test(img_path, colours):
@@ -106,7 +107,3 @@ def detect(image, lower, upper):
     else:
         ball = None
     return ball
-
-if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)
-    test('/Users/charlottegodley/Projects/colour-detection/circles.png', ["yellow", "orange", "green", "purple", "red"])
