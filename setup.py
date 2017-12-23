@@ -8,5 +8,6 @@ setup(
     license='MIT',
     author='Charlotte Godley',
     author_email='charlotte.godley@hotmail.co.uk',
-    description='python module for colour detection. Abstracted from opencv'
+    description='python module for colour detection. Abstracted from opencv',
+    install_requires=['opencv-python']
 )
