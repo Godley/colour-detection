@@ -3,7 +3,7 @@ python module for doing colour detection
 
 # Installing
 clone -> `cd colour-detection -> python3 setup.py install` - may eventually put this on pip.
-You can also run `pip install git+github.com/godley/colour-detection` to achieve the same thing or add `git+github.com/godley/colour-detection` to your requirements.txt file.
+You can also run `pip install git+https://github.com/godley/colour-detection` to achieve the same thing or add `git+https://github.com/godley/colour-detection` to your requirements.txt file.
 
 # Usage
 ```
